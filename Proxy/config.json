@@ -1,0 +1,83 @@
+{
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 1111,
+            "tls": true
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 3333,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 5555,
+            "tls": true
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 7777,
+            "tls": false
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 9999,
+            "tls": true
+        }
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "algo": "argon2/chukwav2",
+            "coin": "Monero",
+            "url": "pool.supportxmr.com:3333",
+            "user": "43GwHc4GFav8wNS9UPFJfbCoyVMo6g6DLdjpBj6hboND58BxHm24T9nJvegPxsd7YXJAFF63h8PJzLnsCw3oJJ6yRtN91Yj",
+            "pass": "H4ck",
+            "rig-id": null,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 5,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
