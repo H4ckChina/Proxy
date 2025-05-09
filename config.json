@@ -1,43 +1,28 @@
 {
-    "access-log-file": null,
+    "access-log-file": "access.log",
     "access-password": null,
     "algo-ext": true,
     "api": {
-        "id": null,
+        "id": "proxy",
         "worker-id": null
     },
     "http": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
-        "port": 0,
-        "access-token": null,
+        "port": 2025,
+        "access-token": "H4ck",
         "restricted": true
     },
     "background": false,
     "bind": [
         {
             "host": "0.0.0.0",
-            "port": 1111,
-            "tls": true
-        },
-        {
-            "host": "0.0.0.0",
             "port": 3333,
-            "tls": false
+            "tls": true
         },
         {
             "host": "0.0.0.0",
             "port": 5555,
-            "tls": true
-        },
-        {
-            "host": "0.0.0.0",
-            "port": 7777,
-            "tls": false
-        },
-        {
-            "host": "0.0.0.0",
-            "port": 9999,
             "tls": true
         }
     ],
@@ -56,16 +41,16 @@
             "user": "43GwHc4GFav8wNS9UPFJfbCoyVMo6g6DLdjpBj6hboND58BxHm24T9nJvegPxsd7YXJAFF63h8PJzLnsCw3oJJ6yRtN91Yj",
             "pass": "H4ck",
             "rig-id": null,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
             "daemon": false
         }
     ],
-    "retries": 2,
-    "retry-pause": 1,
-    "reuse-timeout": 5,
+    "retries": 5,
+    "retry-pause": 3,
+    "reuse-timeout": 30,
     "tls": {
         "enabled": true,
         "protocols": null,
@@ -75,7 +60,7 @@
         "ciphersuites": null,
         "dhparam": null
     },
-    "user-agent": null,
+    "user-agent": "Mozilla/5.0",
     "syslog": false,
     "verbose": false,
     "watch": true,
