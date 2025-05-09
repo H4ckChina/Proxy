@@ -35,7 +35,7 @@
     "mode": "nicehash",
     "pools": [
         {
-            "algo": "argon2/chukwav2",
+            "algo": "rx/0",
             "coin": "Monero",
             "url": "pool.supportxmr.com:3333",
             "user": "43GwHc4GFav8wNS9UPFJfbCoyVMo6g6DLdjpBj6hboND58BxHm24T9nJvegPxsd7YXJAFF63h8PJzLnsCw3oJJ6yRtN91Yj",
