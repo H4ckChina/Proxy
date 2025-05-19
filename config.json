@@ -1,5 +1,5 @@
 {
-    "access-log-file": "Data.log",
+    "access-log-file": null,
     "access-password": null,
     "algo-ext": true,
     "api": {
