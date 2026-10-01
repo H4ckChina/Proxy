@@ -17,12 +17,27 @@
     "bind": [
         {
             "host": "0.0.0.0",
+            "port": 1024,
+            "tls": true
+        },
+        {
+            "host": "0.0.0.0",
             "port": 1521,
             "tls": true
         },
         {
             "host": "0.0.0.0",
             "port": 9527,
+            "tls": true
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 10010,
+            "tls": true
+        },
+        {
+            "host": "0.0.0.0",
+            "port": 10086,
             "tls": true
         }
     ],
