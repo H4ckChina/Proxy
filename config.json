@@ -47,7 +47,7 @@
     "custom-diff-stats": false,
     "donate-level": 0,
     "log-file": null,
-    "mode": "nicehash",
+    "mode": "proxy",
     "pools": [
         {
             "algo": "rx/0",
@@ -75,7 +75,7 @@
         "ciphersuites": null,
         "dhparam": null
     },
-    "user-agent": "Mozilla/5.0",
+    "user-agent": null,
     "syslog": false,
     "verbose": false,
     "watch": true,
